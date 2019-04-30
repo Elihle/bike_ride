@@ -1,30 +1,24 @@
 package bicycles;
 
 public class Bicycle {
+    private int speed = 0;
 
     public void accellerate () {
-        //increase speed
+       speed += 5;
+    }
 
-        int speed = 5;
-        while (speed < 5) {
-            speed++;
-        }
+    public void brake () {
+        speed -= 3;
+    }
+
+    public void currentSpeed () {
+        speed += 2;
+    }
+
+    public void stop () {
+    speed += 0;
     }
 
 
-//    public void brake () {
-//    decrease speed
 
-//        int speed = 3;
-//    }
-//
-//    public void currentSpeed () {
-//    current speed
-//    }
-//
-//    public void stop () {
-//    returns 0
-//        int speed = 0;
-//
-//    }
 }
