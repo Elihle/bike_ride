@@ -1,7 +1,7 @@
 package bicycles;
 
 public class Bicycle {
-    private int speed = 0;
+    private int speed;
 
     public void accellerate () {
        speed += 5;
@@ -11,14 +11,12 @@ public class Bicycle {
         speed -= 3;
     }
 
-    public void currentSpeed () {
-        speed += 2;
+    public int currentSpeed () {
+        return speed;
     }
 
     public void stop () {
     speed += 0;
     }
-
-
 
 }
