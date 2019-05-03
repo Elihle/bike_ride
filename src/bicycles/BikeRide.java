@@ -3,23 +3,23 @@ package bicycles;
 public class BikeRide {
     private Bicycle bicycle;
 
-    //    constructor
+//    constructor
     public BikeRide (Bicycle bicycle) {
         this.bicycle = bicycle;
     }
 
     public void ride () {
-        this.bicycle.accellerate();
-        this.bicycle.accellerate();
-        this.bicycle.accellerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
         this.bicycle.brake();
         this.bicycle.brake();
-        this.bicycle.accellerate();
+        this.bicycle.accelerate();
 
     }
 
     public int currentSpeed () {
-        return this.bicycle.currentSpeed();
+       return this.bicycle.currentSpeed();
     }
 }
 
