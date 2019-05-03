@@ -4,11 +4,14 @@ public class Bicycle {
     private int speed;
 
     public void accellerate () {
-       speed += 5;
+        speed += 5;
     }
 
     public void brake () {
         speed -= 3;
+        if (speed < 0 ) {
+            speed = 0;
+        }
     }
 
     public int currentSpeed () {
@@ -16,7 +19,7 @@ public class Bicycle {
     }
 
     public void stop () {
-    speed += 0;
+        speed = 0;
     }
 
 }

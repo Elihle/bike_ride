@@ -3,7 +3,7 @@ package bicycles;
 public class BikeRide {
     private Bicycle bicycle;
 
-//    constructor
+    //    constructor
     public BikeRide (Bicycle bicycle) {
         this.bicycle = bicycle;
     }
@@ -19,7 +19,7 @@ public class BikeRide {
     }
 
     public int currentSpeed () {
-       return this.bicycle.currentSpeed();
+        return this.bicycle.currentSpeed();
     }
 }
 

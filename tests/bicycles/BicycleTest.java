@@ -17,22 +17,23 @@ public class BicycleTest {
     }
 
     @Test
-     void shouldStop() {
+    void shouldStop() {
         Bicycle bicycle = new Bicycle();
 
         bicycle.accellerate();
         assertEquals(5, bicycle.currentSpeed());
         bicycle.stop();
-        assertEquals(5, bicycle.currentSpeed());
+        assertEquals(0, bicycle.currentSpeed());
     }
 
     @Test
     void shouldBrake() {
         Bicycle bicycle = new Bicycle();
 
+        bicycle.accellerate(); // speed = 5
         bicycle.brake();
-        assertEquals(5, bicycle.currentSpeed());
+        assertEquals(2, bicycle.currentSpeed());
         bicycle.brake();
-        assertEquals(3, bicycle.currentSpeed());
+        assertEquals(0, bicycle.currentSpeed());
     }
-    }
+}
