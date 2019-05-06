@@ -15,6 +15,7 @@ public class BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
+        System.out.println(bicycle.currentSpeed());
 
     }
 

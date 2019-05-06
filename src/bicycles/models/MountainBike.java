@@ -1,13 +1,13 @@
 package bicycles.models;
 
 import bicycles.Bicycle;
+import bicycles.BicycleBase;
 
-public class MountainBike implements Bicycle {
-     int speed;
-
+public class MountainBike extends BicycleBase {
     @Override
     public void accelerate() {
         speed += 11;
+        System.out.println(speed);
     }
 
     @Override
@@ -16,15 +16,5 @@ public class MountainBike implements Bicycle {
         if (speed < 0) {
             speed = 0;
         }
-    }
-
-    @Override
-    public int currentSpeed() {
-        return speed;
-    }
-
-    @Override
-    public void stop() {
-        speed = 0;
     }
 }

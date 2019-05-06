@@ -11,7 +11,7 @@ public class BicycleTest {
 //    MountainBike Tests
     @Test
     public void shouldAccelerate () {
-        MountainBike mountainBike = new MountainBike();
+        Bicycle mountainBike = new MountainBike();
         BikeRide bikeRide = new BikeRide(mountainBike);
         bikeRide.ride();
 
@@ -31,7 +31,7 @@ public class BicycleTest {
 
     @Test
     public void shouldStopMountainBike () {
-        MountainBike mountainBike = new MountainBike();
+        Bicycle mountainBike = new MountainBike();
         BikeRide bikeRide = new BikeRide(mountainBike);
         bikeRide.ride();
 
