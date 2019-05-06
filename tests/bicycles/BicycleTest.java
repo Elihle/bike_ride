@@ -2,6 +2,7 @@ package bicycles;
 
 import bicycles.models.MountainBike;
 import bicycles.models.RoadBike;
+import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,7 +12,7 @@ public class BicycleTest {
 //    MountainBike Tests
     @Test
     public void shouldAccelerate () {
-        Bicycle mountainBike = new MountainBike();
+        BicycleBase mountainBike = new MountainBike();
         BikeRide bikeRide = new BikeRide(mountainBike);
         bikeRide.ride();
 
@@ -31,7 +32,7 @@ public class BicycleTest {
 
     @Test
     public void shouldStopMountainBike () {
-        Bicycle mountainBike = new MountainBike();
+        MountainBike mountainBike = new MountainBike();
         BikeRide bikeRide = new BikeRide(mountainBike);
         bikeRide.ride();
 
@@ -61,6 +62,7 @@ public class BicycleTest {
         assertEquals(roadBike.currentSpeed(), 11);
     }
 
+//    Tandem Tests
     @Test
     public void shouldStopRoadBike () {
         RoadBike roadBike = new RoadBike();
@@ -72,4 +74,25 @@ public class BicycleTest {
         assertEquals(roadBike.currentSpeed(), 0);
     }
 
+    @Test
+    public void shouldAccelerateTandem () {
+        Tandem tandem = new Tandem();
+        BikeRide bikeRide = new BikeRide(tandem);
+        bikeRide.ride();
+
+        assertEquals(tandem.currentSpeed(), 34);
     }
+
+    @Test
+    public void shouldBrakeTandem () {
+        Tandem tandem = new Tandem();
+        BikeRide bikeRide = new BikeRide(tandem);
+        bikeRide.ride();
+
+        assertEquals(tandem.currentSpeed(), 34);
+        tandem.brake();
+        assertEquals(tandem.currentSpeed(), 27);
+
+    }
+    }
+
