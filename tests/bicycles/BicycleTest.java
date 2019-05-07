@@ -13,8 +13,8 @@ public class BicycleTest {
     @Test
     public void shouldAccelerate () {
         BicycleBase mountainBike = new MountainBike();
-        BikeRide bikeRide = new BikeRide(mountainBike);
-        bikeRide.ride();
+        BikeRideOne bikeRideOne = new BikeRideOne(mountainBike);
+        bikeRideOne.ride();
 
         assertEquals(mountainBike.currentSpeed(), 36);
     }
@@ -94,5 +94,19 @@ public class BicycleTest {
         assertEquals(tandem.currentSpeed(), 27);
 
     }
+
+//    BikeRideOne Test
+    @Test
+    public void shouldBrakeTandem () {
+        BikeRideOne bikeRideOne = new BikeRideOne();
+        BikeRide bikeRide = new BikeRide(bikeRideOne);
+        bikeRide.ride();
+
+        assertEquals(bikeRideOne.currentSpeed(), 34);
+        bikeRideOne.brake();
+        assertEquals(bikeRideOne.currentSpeed(), 27);
+
+}
+
     }
 
