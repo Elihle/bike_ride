@@ -8,8 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TandemTest {
 
-
-
     @Test
     public void shouldAccelerateTandem () {
         Tandem tandem = new Tandem();
@@ -28,6 +26,18 @@ public class TandemTest {
         assertEquals(tandem.currentSpeed(), 34);
         tandem.brake();
         assertEquals(tandem.currentSpeed(), 27);
+
+    }
+
+    @Test
+    public void shouldStopTandem () {
+        Tandem tandem = new Tandem();
+        BikeRideOne bikeRide = new BikeRideOne(tandem);
+        bikeRide.ride();
+
+        assertEquals(tandem.currentSpeed(), 34);
+        tandem.stop();
+        assertEquals(tandem.currentSpeed(), 0);
 
     }
 }
