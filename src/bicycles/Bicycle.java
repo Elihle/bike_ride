@@ -6,5 +6,5 @@ package bicycles;
     void brake ();
     int currentSpeed ();
     void stop ();
-
+    BicycleSpecification.BicycleType getBicycleType();
 }
