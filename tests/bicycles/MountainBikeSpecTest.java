@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 public class MountainBikeSpecTest {
     @Test
     public void shouldRideMountainBikeSpec () {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.RoadBike);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();

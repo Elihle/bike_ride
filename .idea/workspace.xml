@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be61adae-5fa2-4bec-8bce-4fd6e0810e62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bicycles/TandemSpecTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleFromSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/models/MountainBike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/models/RoadBike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/models/Tandem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/models/Tandem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/Tandem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BikeRide/bicycles/MountainBikeSpecTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/BikeRide/bicycles/MountainBikeSpecTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="285">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -56,24 +41,19 @@
                 <element signature="e#385#386#0" expanded="true" />
                 <element signature="e#426#427#0" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bicycles/models/RoadBike.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,31 +63,10 @@
         <entry file="file://$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/bicycles/BikeRideTwoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="31" selection-start-line="16" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bicycles/Bicycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -132,43 +91,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/bicycles/BikeRideThreeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bicycles/models/Tandem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bicycles/models/MountainBike.java">
+        <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="265">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +119,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/bicycles/TandemSpecTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRideOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,16 +197,17 @@
         <option value="$PROJECT_DIR$/tests/bicycles/mountainBikeSpecTest.java" />
         <option value="$PROJECT_DIR$/src/bicycles/models/BicycleType.java" />
         <option value="$PROJECT_DIR$/src/bicycles/FunRide.java" />
-        <option value="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" />
         <option value="$PROJECT_DIR$/src/bicycles/BicycleType.java" />
-        <option value="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java" />
         <option value="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" />
-        <option value="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java" />
-        <option value="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" />
         <option value="$PROJECT_DIR$/src/bicycles/Bicycle.java" />
-        <option value="$PROJECT_DIR$/src/bicycles/models/Tandem.java" />
         <option value="$PROJECT_DIR$/src/bicycles/BicycleBase.java" />
         <option value="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" />
+        <option value="$PROJECT_DIR$/src/bicycles/models/Tandem.java" />
+        <option value="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" />
+        <option value="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" />
+        <option value="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java" />
+        <option value="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java" />
+        <option value="$PROJECT_DIR$/tests/bicycles/TandemSpecTest.java" />
       </list>
     </option>
   </component>
@@ -350,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoadBikeSpecTest">
+  <component name="RunManager" selected="JUnit.TandemSpecTest">
     <configuration name="BikeRideOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -362,22 +342,6 @@
       <option name="PACKAGE_NAME" value="bicycles" />
       <option name="MAIN_CLASS_NAME" value="bicycles.BikeRideOneTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeRideOneTest.shouldRideTandem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BikeRideOneTest" />
-      <option name="METHOD_NAME" value="shouldRideTandem" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -412,6 +376,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TandemSpecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.TandemSpecTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mountainBikeSpecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -429,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoadBikeSpecTest" />
+        <item itemvalue="JUnit.TandemSpecTest" />
         <item itemvalue="JUnit.MountainBikeSpecTest" />
+        <item itemvalue="JUnit.RoadBikeSpecTest" />
         <item itemvalue="JUnit.mountainBikeSpecTest" />
         <item itemvalue="JUnit.BikeRideOneTest" />
-        <item itemvalue="JUnit.BikeRideOneTest.shouldRideTandem" />
       </list>
     </recent_temporary>
   </component>
@@ -451,24 +430,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BikeRideOneTest_shouldRideMountainBike - 2019.05.07 at 15h 40m 04s.xml">
-      <configuration name="BikeRideOneTest.shouldRideMountainBike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BikeRideOneTest_shouldRideMountainBike - 2019.05.07 at 15h 40m 15s.xml">
-      <configuration name="BikeRideOneTest.shouldRideMountainBike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BikeRideOneTest_shouldRideRoadBike - 2019.05.07 at 15h 40m 23s.xml">
-      <configuration name="BikeRideOneTest.shouldRideRoadBike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BikeRideOneTest_shouldRideRoadBike - 2019.05.07 at 15h 40m 38s.xml">
-      <configuration name="BikeRideOneTest.shouldRideRoadBike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BikeRideOneTest_shouldRideTandem - 2019.05.07 at 15h 40m 44s.xml">
-      <configuration name="BikeRideOneTest.shouldRideTandem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BikeRideOneTest_shouldRideTandem - 2019.05.07 at 15h 40m 56s.xml">
-      <configuration name="BikeRideOneTest.shouldRideTandem" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BikeRideOneTest_shouldRideTandem - 2019.05.07 at 15h 41m 10s.xml">
       <configuration name="BikeRideOneTest.shouldRideTandem" configurationId="JUnit" />
     </history-entry>
@@ -480,6 +441,24 @@
     </history-entry>
     <history-entry file="MountainBikeSpecTest - 2019.05.09 at 08h 30m 53s.xml">
       <configuration name="MountainBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MountainBikeSpecTest - 2019.05.09 at 14h 58m 51s.xml">
+      <configuration name="MountainBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MountainBikeSpecTest - 2019.05.09 at 14h 59m 10s.xml">
+      <configuration name="MountainBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoadBikeSpecTest - 2019.05.09 at 14h 59m 47s.xml">
+      <configuration name="RoadBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoadBikeSpecTest - 2019.05.09 at 15h 00m 00s.xml">
+      <configuration name="RoadBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MountainBikeSpecTest - 2019.05.09 at 15h 03m 49s.xml">
+      <configuration name="MountainBikeSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TandemSpecTest - 2019.05.09 at 15h 06m 51s.xml">
+      <configuration name="TandemSpecTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -493,7 +472,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="25" width="1289" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3378922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -502,10 +480,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -563,33 +541,6 @@
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRideOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,62 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bicycles/MountainBikeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/models/RoadBike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/BikeRideTwoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -728,10 +623,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/models/Tandem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bicycles/models/MountainBike.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="330">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
@@ -741,10 +649,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleType.java">
+    <entry file="file://$PROJECT_DIR$/src/bicycles/models/RoadBike.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bicycles/MountainBikeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -772,10 +697,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/BikeRideOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
@@ -783,22 +748,47 @@
             <element signature="e#385#386#0" expanded="true" />
             <element signature="e#426#427#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/models/Tandem.java">
+    <entry file="file://$PROJECT_DIR$/tests/bicycles/TandemSpecTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bicycles/MountainBikeSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
