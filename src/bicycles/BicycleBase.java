@@ -16,4 +16,9 @@ public abstract class BicycleBase implements Bicycle {
     public void stop() {
         speed = 0;
     }
+
+    @Override
+    public BicycleType getBicycleType() {
+        return getBicycleType();
+    }
 }

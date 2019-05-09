@@ -1,10 +1,10 @@
 package bicycles;
 
- public interface  Bicycle {
+ public interface Bicycle {
 
     void accelerate();
     void brake ();
     int currentSpeed ();
     void stop ();
-    BicycleSpecification.BicycleType getBicycleType();
+    BicycleType getBicycleType();
 }

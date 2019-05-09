@@ -2,6 +2,8 @@ package bicycles.models;
 
 import bicycles.Bicycle;
 import bicycles.BicycleBase;
+import bicycles.BicycleSpecification;
+import bicycles.BicycleType;
 
 public class MountainBike extends BicycleBase {
     @Override
@@ -15,5 +17,10 @@ public class MountainBike extends BicycleBase {
         if (speed < 0) {
             speed = 0;
         }
+    }
+
+    @Override
+    public BicycleType getBicycleType() {
+        return getBicycleType();
     }
 }

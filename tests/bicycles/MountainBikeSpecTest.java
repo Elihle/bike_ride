@@ -12,21 +12,19 @@
 
 
 package bicycles;
-
-import bicycles.models.MountainBike;
-import bicycles.models.RoadBike;
-import bicycles.models.Tandem;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class MountainBikeSpecTest {
     @Test
     public void shouldRideMountainBikeSpec () {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.RoadBike);
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();
+
+        assertEquals(mBikeRide.currentSpeed(), 26);
+
     }
 
 

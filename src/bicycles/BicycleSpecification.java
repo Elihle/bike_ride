@@ -6,13 +6,9 @@ public class BicycleSpecification {
     private int accelerationSpeed;
     private int brakeSpeed;
 
-    enum BicycleType {
-        RoadBike,
-        MountainBike,
-        Tandem
-
-    }
         public BicycleSpecification(int accelerationSpeed, int brakeSpeed, BicycleType bicycleType) {
+            this.accelerationSpeed = accelerationSpeed;
+            this.brakeSpeed = brakeSpeed;
             this.bicycleType = bicycleType;
         }
 

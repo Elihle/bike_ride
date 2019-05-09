@@ -1,8 +1,6 @@
 package bicycles.models;
 
-import bicycles.Bicycle;
-import bicycles.BicycleBase;
-import bicycles.BikeRide;
+import bicycles.*;
 
 public class Tandem extends BicycleBase {
 
@@ -18,5 +16,10 @@ public class Tandem extends BicycleBase {
             speed = 0;
         }
 
+    }
+
+    @Override
+    public BicycleType getBicycleType() {
+        return getBicycleType();
     }
 }
