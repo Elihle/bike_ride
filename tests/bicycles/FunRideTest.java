@@ -1,25 +1,27 @@
 package bicycles;
-
-import bicycles.models.MountainBike;
-import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class FunRideTest {
     @Test
-    public void shouldAcceptRide () {
+    public void shouldAcceptRides () {
         BicycleSpecification roadBikeSpec = new BicycleSpecification(5, 3, BicycleType.RoadBike);
         Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
 
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(10, 3, BicycleType.MountainBike);
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
 
-        FunRide funRide = new FunRide(2);
+        BicycleSpecification tandemSpec = new BicycleSpecification(7, 3, BicycleType.Tandem);
+        Bicycle tandem = new BicycleFromSpec(tandemSpec);
+
+        FunRide funRide = new FunRide(6);
 
         assertEquals(funRide.accept(roadBike), "Accept");
         assertEquals(funRide.accept(mountainBike), "Accept");
+        assertEquals(funRide.accept(tandem), "Accept");
+        assertEquals(funRide.accept(mountainBike), "Reject");
+
 
     }
 
@@ -36,8 +38,19 @@ public class FunRideTest {
         assertEquals(funRide.accept(roadBike), "Accept");
         assertEquals(funRide.accept(mountainBike), "Accept");
         assertEquals(funRide.accept(mountainBike), "Accept");
-        funRide.getEnteredCount();
         assertEquals(funRide.getEnteredCount(), 3);
+    }
+
+
+    @Test
+    public void shouldReturnBikeType () {
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(5, 3, BicycleType.RoadBike);
+        Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
+
+        FunRide funRide = new FunRide(2);
+        funRide.accept(roadBike);
+
+        assertEquals(funRide.getCountForType(BicycleType.RoadBike), 1);
     }
 
 }

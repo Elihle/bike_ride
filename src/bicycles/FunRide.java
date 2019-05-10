@@ -5,7 +5,6 @@ import java.util.List;
 
 public class FunRide {
     private int maximum;
-//    private Bicycle Bicycle;
 
     public FunRide (int maximum) {
         this.maximum = maximum;
@@ -14,7 +13,7 @@ public class FunRide {
     List<Bicycle> bicycles = new ArrayList<>();
 
     public String accept(Bicycle bicycle) {
-        if (bicycles.size() <= maximum) {
+        if (bicycles.size() < maximum && !bicycles.contains(bicycle)) {
             bicycles.add(bicycle);
 
             return "Accept";
@@ -27,10 +26,15 @@ public class FunRide {
     }
 
 
-    public void getCountForType () {
+    public int getCountForType (BicycleType bicycleType) {
+        int counter = 0;
 
-
-
+        for (Bicycle bicycle : bicycles) {
+            if (bicycle.getBicycleType() == bicycleType) {
+                counter++;
+            }
+        }
+        return counter;
     }
 
 }
