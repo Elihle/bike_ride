@@ -11,26 +11,26 @@ public class TandemTest {
         Tandem tandem = new Tandem();
         tandem.accelerate();
 
-        assertEquals(tandem.currentSpeed(), 5);
+        assertEquals(tandem.currentSpeed(), 12);
     }
 
     @Test
     public void shouldBrakeTandem () {
         Tandem tandem = new Tandem();
-        tandem.brake();
+        tandem.accelerate();
 
-        assertEquals(tandem.currentSpeed(), 34);
+        assertEquals(tandem.currentSpeed(), 12);
         tandem.brake();
-        assertEquals(tandem.currentSpeed(), 27);
+        assertEquals(tandem.currentSpeed(), 5);
 
     }
 
     @Test
     public void shouldStopTandem () {
         Tandem tandem = new Tandem();
-        tandem.stop();
+        tandem.accelerate();
 
-        assertEquals(tandem.currentSpeed(), 34);
+        assertEquals(tandem.currentSpeed(), 12);
         tandem.stop();
         assertEquals(tandem.currentSpeed(), 0);
 

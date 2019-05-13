@@ -10,23 +10,25 @@ public class RoadBikeTest {
         RoadBike roadBike = new RoadBike();
 
         roadBike.accelerate();
-        assertEquals(roadBike.currentSpeed(), 14);
+        assertEquals(roadBike.currentSpeed(), 5);
     }
 
     @Test
     public void shouldBrakeRoadBike () {
         RoadBike roadBike = new RoadBike();
 
-        assertEquals(roadBike.currentSpeed(), 14);
+        roadBike.accelerate();
+        assertEquals(roadBike.currentSpeed(), 5);
         roadBike.brake();
-        assertEquals(roadBike.currentSpeed(), 11);
+        assertEquals(roadBike.currentSpeed(), 2);
     }
 
     @Test
     public void shouldStopRoadBike () {
         RoadBike roadBike = new RoadBike();
 
-        assertEquals(roadBike.currentSpeed(), 14);
+        roadBike.accelerate();
+        assertEquals(roadBike.currentSpeed(), 5);
         roadBike.stop();
         assertEquals(roadBike.currentSpeed(), 0);
     }
