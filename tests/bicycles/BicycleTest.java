@@ -13,15 +13,11 @@ public class BicycleTest {
     }
 
     @Test
-    void shouldStop() {
-
-        BicycleSpecification bicycle = new BicycleSpecification(5, -3, BicycleType.RoadBike);
-        assertEquals(bicycle.getAccelerationSpeed(), 5);
-    }
-
-    @Test
     void shouldBrake() {
+
         BicycleSpecification bicycle = new BicycleSpecification(5, -3, BicycleType.RoadBike);
-        assertEquals(bicycle.getAccelerationSpeed(), 5);
+        assertEquals(bicycle.getBrakeSpeed(), -3);
+
     }
+
 }
